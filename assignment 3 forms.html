@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head>
+          <title> Third assignment </title>
+   </head>
+<body>
+
+<form action="action_page.php">
+  <div class="container">
+    <h1>Assignment 3</h1>
+
+    <hr>
+
+      <label for="fname"><b>First Name:-</b></label>
+    <input type="text" name="firstname" id="fname" required>
+ 
+
+
+    <label for="lname"><b>Last Name:-</b></label>
+    <input type="text" name="lastname" id="lname" required>
+    <hr>
+    
+    <p>I love:-</p>
+
+   <input type="radio" id="Eating Chicken" name="I love" value="Eating Chicken">
+  <label for="Eating Chicken">Eating Chicken</label><br>
+  <input type="radio" id="Travelling" name="I love" value="Travelling">
+  <label for="Travelling">Travelling</label><br>
+  <input type="radio" id="Developing" name="I love" value="Developing">
+  <label for="Developing">Developing</label>
+   <hr>
+   
+  <input type="checkbox" id="device1" name="device1" value="Laptop">
+  <label for="device1"> I have a Laptop</label><br>
+  <input type="checkbox" id="device2" name="device2" value="Mobile Phone">
+  <label for="device2"> I have a Mobile Phone</label><br>
+  <input type="checkbox" id="device3" name="device3" value="Desktop">
+  <label for="device3"> I have a Desktop</label>
+  <hr>
+
+ <label for="email"><b>Email:-</b></label>
+  <input type="email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" name="password" id="psw" minlength ="5" required>
+    <hr>
+
+<label for="age">Tell us your age:-</label>
+  <input list="Age range" name="age" id="age">
+  <datalist id="Age range">
+    <option value="Below 18">
+    <option value="18-30">
+    <option value="30-40">
+    <option value="40-50">
+    <option value="Above 50">
+  </datalist>
+  <hr>
+
+    <button type="submit" class="registerbtn">Submit</button>
+  </div>
+
+  </div>
+</form>
+
+</body>
+</html>
